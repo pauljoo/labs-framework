@@ -11,10 +11,8 @@
 
     <modules>
         <module>labs-sofa-ark-dependencies</module>
-        <module>labs-sofa-ark-conflict</module>
-        <module>labs-sofa-ark-conflict-plugin</module>
+        <module>labs-sofa-ark-plugin-apple</module>
+        <module>labs-sofa-ark-plugin-banana</module>
     </modules>
-
-
 
 </project>

@@ -17,39 +17,16 @@
 
     <dependencyManagement>
         <dependencies>
-
             <dependency>
                 <groupId>info.xpanda.labs.sofa-ark</groupId>
-                <artifactId>labs-sofa-ark-conflict-plugin</artifactId>
+                <artifactId>labs-sofa-ark-biz</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>info.xpanda.labs.sofa-ark</groupId>
+                <artifactId>labs-sofa-ark-plugin-apple</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <profiles>
-        <profile>
-            <id>default</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <repositories>
-                <repository>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                    <id>ark-snapshot</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-                </repository>
-            </repositories>
-            <pluginRepositories>
-                <pluginRepository>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                    <id>ark-snapshot</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-                </pluginRepository>
-            </pluginRepositories>
-        </profile>
-    </profiles>
 </project>
