@@ -4,19 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>info.xpanda.labs</groupId>
-    <artifactId>labs-framework</artifactId>
+    <groupId>info.xpanda.labs.sofa-ark</groupId>
+    <artifactId>labs-sofa-ark</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>labs-framework-dependencies</module>
-        <module>labs-framework-api</module>
-        <module>labs-framework-biz-facade</module>
-        <module>labs-framework-biz-provider</module>
-        <module>labs-framework-biz-plugin</module>
-        <module>labs-framework-cat-facade</module>
-        <module>labs-framework-cat-provider</module>
+        <module>labs-sofa-ark-dependencies</module>
+        <module>labs-sofa-ark-conflict</module>
+        <module>labs-sofa-ark-conflict-plugin</module>
     </modules>
+
+
 
 </project>
